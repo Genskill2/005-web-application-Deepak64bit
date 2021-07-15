@@ -25,7 +25,7 @@ CREATE TABLE pet (
        description TEXT,
        species INTEGER,
        FOREIGN KEY (species) references animal(id) ON DELETE CASCADE
-);      
+       );      
        
 
 CREATE TABLE tags_pets (
